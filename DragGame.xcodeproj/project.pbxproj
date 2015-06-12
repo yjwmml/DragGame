@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67C763251B2ACB8C00A59667 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C763231B2ACB8C00A59667 /* InfoViewController.swift */; };
+		67C763261B2ACB8C00A59667 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67C763241B2ACB8C00A59667 /* InfoViewController.xib */; };
+		67C763291B2AD76A00A59667 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C763281B2AD76A00A59667 /* Background.png */; };
+		67C7632E1B2AE00800A59667 /* Button_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C7632D1B2AE00800A59667 /* Button_Normal.png */; };
+		67C763301B2AE04600A59667 /* Button_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C7632F1B2AE04600A59667 /* Button_Highlighted.png */; };
+		67C763351B2AE17600A59667 /* SliderThumb-Highligted.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C763311B2AE17600A59667 /* SliderThumb-Highligted.png */; };
+		67C763381B2AE17600A59667 /* SliderThumb-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C763341B2AE17600A59667 /* SliderThumb-Normal.png */; };
 		67E1B95B1B29D70700A5910B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1B95A1B29D70700A5910B /* AppDelegate.swift */; };
 		67E1B95D1B29D70700A5910B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E1B95C1B29D70700A5910B /* ViewController.swift */; };
 		67E1B9601B29D70700A5910B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E1B95E1B29D70700A5910B /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67C763231B2ACB8C00A59667 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		67C763241B2ACB8C00A59667 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		67C763281B2AD76A00A59667 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		67C7632D1B2AE00800A59667 /* Button_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_Normal.png; path = ../../../../../Desktop/Button_Normal.png; sourceTree = "<group>"; };
+		67C7632F1B2AE04600A59667 /* Button_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_Highlighted.png; path = ../../../../../Desktop/Button_Highlighted.png; sourceTree = "<group>"; };
+		67C763311B2AE17600A59667 /* SliderThumb-Highligted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderThumb-Highligted.png"; path = "../../../../../Desktop/SliderThumb-Highligted.png"; sourceTree = "<group>"; };
+		67C763341B2AE17600A59667 /* SliderThumb-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SliderThumb-Normal.png"; path = "../../../../../Desktop/SliderThumb-Normal.png"; sourceTree = "<group>"; };
 		67E1B9551B29D70700A5910B /* DragGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E1B9591B29D70700A5910B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67E1B95A1B29D70700A5910B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67C7632A1B2AD77500A59667 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				67C7632F1B2AE04600A59667 /* Button_Highlighted.png */,
+				67C7632D1B2AE00800A59667 /* Button_Normal.png */,
+				67C763281B2AD76A00A59667 /* Background.png */,
+				67C763311B2AE17600A59667 /* SliderThumb-Highligted.png */,
+				67C763341B2AE17600A59667 /* SliderThumb-Normal.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		67E1B94C1B29D70700A5910B = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +103,15 @@
 		67E1B9571B29D70700A5910B /* DragGame */ = {
 			isa = PBXGroup;
 			children = (
+				67C7632A1B2AD77500A59667 /* images */,
 				67E1B95A1B29D70700A5910B /* AppDelegate.swift */,
 				67E1B95C1B29D70700A5910B /* ViewController.swift */,
 				67E1B95E1B29D70700A5910B /* Main.storyboard */,
 				67E1B9611B29D70700A5910B /* Images.xcassets */,
 				67E1B9631B29D70700A5910B /* LaunchScreen.xib */,
 				67E1B9581B29D70700A5910B /* Supporting Files */,
+				67C763231B2ACB8C00A59667 /* InfoViewController.swift */,
+				67C763241B2ACB8C00A59667 /* InfoViewController.xib */,
 			);
 			path = DragGame;
 			sourceTree = "<group>";
@@ -194,6 +223,12 @@
 			files = (
 				67E1B9601B29D70700A5910B /* Main.storyboard in Resources */,
 				67E1B9651B29D70700A5910B /* LaunchScreen.xib in Resources */,
+				67C763301B2AE04600A59667 /* Button_Highlighted.png in Resources */,
+				67C7632E1B2AE00800A59667 /* Button_Normal.png in Resources */,
+				67C763381B2AE17600A59667 /* SliderThumb-Normal.png in Resources */,
+				67C763291B2AD76A00A59667 /* Background.png in Resources */,
+				67C763261B2ACB8C00A59667 /* InfoViewController.xib in Resources */,
+				67C763351B2AE17600A59667 /* SliderThumb-Highligted.png in Resources */,
 				67E1B9621B29D70700A5910B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67E1B95D1B29D70700A5910B /* ViewController.swift in Sources */,
+				67C763251B2ACB8C00A59667 /* InfoViewController.swift in Sources */,
 				67E1B95B1B29D70700A5910B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +445,7 @@
 				67E1B9761B29D70700A5910B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67E1B9771B29D70700A5910B /* Build configuration list for PBXNativeTarget "DragGameTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				67E1B9791B29D70700A5910B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
